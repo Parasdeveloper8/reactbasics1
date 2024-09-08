@@ -5,7 +5,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-  <App />
+  <App url3="https://devparas.com/projects-photos/paras-14-08-24.jpg" />
   </>
 );
 
