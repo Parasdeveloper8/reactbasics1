@@ -1,0 +1,38 @@
+export const engineers = [
+    {
+        id:1,
+        type:"software",
+        name:"harry",
+    },
+    {
+        id:2,
+        type:"software",
+        name:"rahul"
+    },
+    {
+        id:3,
+        type:"web",
+        name:"paras",
+    },
+    {
+        id:4,
+        type:"app",
+        name:"nishant",
+    },
+    {
+        id:5,
+        type:"backend",
+        name:"puneet",
+    },
+    {
+        id:6,
+        type:"devops",
+        name:"dinesh",
+    },
+    {
+        id:7,
+        type:"software",
+        name:"happy",
+    }
+]
+

@@ -4,3 +4,8 @@
     justify-content: space-between;
     background-color: rgb(245, 206, 50);
 }
+.devdiv{
+    border:1px solid black;
+    box-shadow:0 0 10px black;
+    background-color: rgb(244, 206, 161);
+}
