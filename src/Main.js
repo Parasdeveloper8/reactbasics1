@@ -4,6 +4,7 @@ import Engineer from "./Engineer";
 import Color from './Changer';
 import Form from './Form';
 import Counter from './Usestate';
+import Object from './Objectscore';
 export default function Main(props){
     return(
         <>
@@ -11,6 +12,7 @@ export default function Main(props){
         <Engineer />
         <Form />
         <Counter/>
+        <Object />
         </>
     )
 }
