@@ -6,6 +6,7 @@ import Counter from './Usestate';
 import Object from './Objectscore';
 import Array from './Array';
 import Reactform from './Reactinputwithstate';
+import Ticket from './Ticket';
 export default function Main(props){
     return(
         <>
@@ -16,6 +17,7 @@ export default function Main(props){
         <Object />
         <Array/>
         <Reactform />
+        <Ticket />
         </>
     )
 }
