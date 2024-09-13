@@ -10,9 +10,12 @@ export default function Counter(){
     }
     return(
         <>
+        <fieldset>
+            <legend>Counter</legend>
         <button onClick={handleClick}>Increment</button>
         <p>{index}</p>
         <button onClick={decClick}>Decrement</button>
+        </fieldset>
         </>
     )
 }

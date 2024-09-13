@@ -5,6 +5,7 @@ import Color from './Changer';
 import Form from './Form';
 import Counter from './Usestate';
 import Object from './Objectscore';
+import Array from './Array';
 export default function Main(props){
     return(
         <>
@@ -13,6 +14,7 @@ export default function Main(props){
         <Form />
         <Counter/>
         <Object />
+        <Array/>
         </>
     )
 }

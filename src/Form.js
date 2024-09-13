@@ -1,9 +1,9 @@
 import React from 'react';
 
 export default function Form(){
-    function subForm(e){
+    function subForm(event){
         let name = document.getElementById("name");
-        e.preventDeafult();
+        event.preventDefault();
         console.log(`${name.value} is submitting`);
     }
     return(
