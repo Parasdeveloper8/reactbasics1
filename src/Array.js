@@ -23,6 +23,8 @@ export default function Array() {
 
     return (
         <>
+        <fieldset>
+            <legend>Working with Array</legend>
             <input
                 type="text"
                 value={inputValue}
@@ -36,6 +38,7 @@ export default function Array() {
                     </li>
                 ))}
             </ol>
+            </fieldset>
         </>
     );
 }

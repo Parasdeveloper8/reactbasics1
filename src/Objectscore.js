@@ -12,8 +12,10 @@ export default function Object(){
      const player2 = {...player,score:player.score+11};
      return(
         <>
+        <fieldset>
       <h1>{player2.score}</h1>
       <h1>{player.score}</h1>
+      </fieldset>
         </>
      )
 }
