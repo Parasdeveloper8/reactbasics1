@@ -7,7 +7,9 @@ import Object from './Objectscore';
 import Array from './Array';
 import Reactform from './Reactinputwithstate';
 import Ticket from './Ticket';
+import Showtext from './Showtext';
 export default function Main(props){
+    const txt = "India is my country and I am citizen of india ..............India is a democratic country";
     return(
         <>
         <Color url={props.url2}/>
@@ -18,6 +20,7 @@ export default function Main(props){
         <Array/>
         <Reactform />
         <Ticket />
+        <Showtext label={"india"} children={txt}/>
         </>
     )
 }
