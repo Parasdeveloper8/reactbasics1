@@ -11,6 +11,8 @@ import Showtext from './Showtext';
 import Score from './Score';
 import Reducer from './Reducer';
 import Compa from './Componenta';
+import Ref from './Useref';
+import Refs from './Useref2';
 export default function Main(props){
     const txt = "India is my country and I am citizen of india ..............India is a democratic country";
     return(
@@ -27,6 +29,8 @@ export default function Main(props){
         <Score/>
         <Reducer/>
         <Compa/>
+        <Ref/>
+        <Refs/>
         </>
     )
 }
