@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import Engineer from "./Engineer";
 import Color from './Changer';
 import Form from './Form';
@@ -13,7 +14,10 @@ import Reducer from './Reducer';
 import Compa from './Componenta';
 import Ref from './Useref';
 import Refs from './Useref2';
+import Newcounter from './Counterforeffect';
+
 export default function Main(props){
+    const [right,setRight] = useState(true);
     const txt = "India is my country and I am citizen of india ..............India is a democratic country";
     return(
         <>
@@ -31,6 +35,8 @@ export default function Main(props){
         <Compa/>
         <Ref/>
         <Refs/>
+        {right?<Newcounter/>:""}
+        <button onClick={(e)=>setRight(!right)}>Toggle</button>
         </>
     )
 }
