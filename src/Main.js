@@ -9,6 +9,7 @@ import Reactform from './Reactinputwithstate';
 import Ticket from './Ticket';
 import Showtext from './Showtext';
 import Score from './Score';
+import Reducer from './Reducer';
 export default function Main(props){
     const txt = "India is my country and I am citizen of india ..............India is a democratic country";
     return(
@@ -23,6 +24,7 @@ export default function Main(props){
         <Ticket />
         <Showtext label={"india"} children={txt}/>
         <Score/>
+        <Reducer/>
         </>
     )
 }
