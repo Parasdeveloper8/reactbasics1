@@ -15,6 +15,7 @@ import Compa from './Componenta';
 import Ref from './Useref';
 import Refs from './Useref2';
 import Newcounter from './Counterforeffect';
+import Animation from './animation';
 
 export default function Main(props){
     const [right,setRight] = useState(true);
@@ -37,6 +38,7 @@ export default function Main(props){
         <Refs/>
         {right?<Newcounter/>:""}
         <button onClick={(e)=>setRight(!right)}>Toggle</button>
+        <Animation/>
         </>
     )
 }
