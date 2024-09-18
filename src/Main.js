@@ -16,7 +16,7 @@ import Ref from './Useref';
 import Refs from './Useref2';
 import Newcounter from './Counterforeffect';
 import Animation from './animation';
-
+import Img from './Img';
 export default function Main(props){
     const [right,setRight] = useState(true);
     const txt = "India is my country and I am citizen of india ..............India is a democratic country";
@@ -39,6 +39,7 @@ export default function Main(props){
         {right?<Newcounter/>:""}
         <button onClick={(e)=>setRight(!right)}>Toggle</button>
         <Animation/>
+        <Img/>
         </>
     )
 }
